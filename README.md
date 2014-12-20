@@ -1,5 +1,15 @@
-#Exceptions
+#OCP
 
-An example of throwing a java exception.
+If we wish to add a new Triangle shape then all we do is add
 
-Add in hierarchy of Exceptions and catching multiple exceptions with single catch block
+another child class which implements the shape interface. 
+
+No change to GraphicalEditor is required.
+
+Advantages:-
+
+• no unit testing required.
+
+• no need to understand the sourcecode from GraphicEditor.
+
+• since the drawing code is moved to the concrete shape classes, it's a reduced risk to affect old functionality when new functionality is added.
